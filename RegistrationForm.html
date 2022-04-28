@@ -1,6 +1,11 @@
 <html>
 <head>
 <title>Registration Form</title>
+<script>
+function myfunction(){
+alert("Form Submitted Sucessfully");
+}
+</script>
 <body>
     <h1 style="text-align: center;">REGISTRATION FORM</h1>
     <form name="RegForm" action="/submit.php" 
@@ -33,8 +38,8 @@
         <br />
         <p>Comments: <textarea cols="55" name="Comment"> </textarea></p>
         <p>
-            <input type="submit" value="Submit" name="Submit" />
             <input type="reset" value="Reset" name="Reset" />
+            <input type="Submit"  value="Submit" onClick="myfunction()"/>
         </p>
     </form>
  <body bgcolor="green">
