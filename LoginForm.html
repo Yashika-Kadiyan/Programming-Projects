@@ -1,7 +1,12 @@
 <html>
 <head>
 <title>Login Form</title>
-    <link rel="stylesheet" href="style.css"
+<script>
+function myfunction(){
+alert("Form Submitted Sucessfully");
+}
+</script>
+     <link rel="stylesheet" href="style.css"
 </head>
 <body>
     <div class="login-page">
@@ -10,12 +15,9 @@
              <input type="text" placeholder="user name"/>
              <input type="text" placeholder="password"/>
              <input type="text" placeholder="email id"/>
-             <button>login</button>
+             
+            <input type="button"  value="login" onClick="myfunction()"/>
             </form>
-            <script>
-            $('.message a').click(function(){
-            $('form').animate({height: "toggle", opacity:"toggle"}, "slow");
-             )};
-           </script>
+            
 </body>
 </html>
